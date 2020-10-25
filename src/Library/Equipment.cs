@@ -3,7 +3,7 @@
 // Copyright (c) Programación II. Derechos reservados.
 // </copyright>
 //-------------------------------------------------------------------------------
-
+using System;
 namespace Full_GRASP_And_SOLID
 {
     public class Equipment
@@ -12,6 +12,10 @@ namespace Full_GRASP_And_SOLID
         {
             this.Description = description;
             this.HourlyCost = hourlyCost;
+            if (HourlyCost<0)
+            {
+                throw new Exception(message: "El costo de la hora no puede ser menor a 0");
+            }
         }
 
         public string Description { get; set; }

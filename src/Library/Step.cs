@@ -17,6 +17,10 @@ namespace Full_GRASP_And_SOLID
             this.Quantity = quantity;
             this.Input = input;
             this.Time = time;
+            if (time<0)
+            {
+                throw new Exception(message: "El tiempo no puede ser menor a 0");
+            }
             this.Equipment = equipment;
         }
 
