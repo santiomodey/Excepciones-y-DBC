@@ -19,7 +19,7 @@ namespace Full_GRASP_And_SOLID
         public Product Input { get; set; }
 
         public double Quantity { get; set; }
-
+        
         public int Time { get; set; }
 
         public Equipment Equipment { get; set; }

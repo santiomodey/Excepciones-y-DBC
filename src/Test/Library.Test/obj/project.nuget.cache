@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ren8TSyAhBx86kZcK8+4plQEbdYZ1E6pYpT1uqY36ruGZ4D6cW7+rL6j7vjQMlk3AHJrdcELnjzX5npEguOofg==",
+  "dgSpecHash": "IAQyNMiL8c38U5LRxN1wqmYyfxHBx1MjSOSLok8ThZ6BaB3rMv1ZQptvonsYQrqf1KULV/rv2okiPB7aNCfuwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FIT\\Desktop\\Ejercicio\\Excepciones\\src\\Test\\Library.Test\\Library.Test.csproj",
+  "projectFilePath": "C:\\Users\\FIT\\Desktop\\Ejercicio\\Excepciones-y-DBC\\src\\Test\\Library.Test\\Library.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FIT\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\FIT\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

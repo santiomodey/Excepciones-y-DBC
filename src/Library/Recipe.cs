@@ -18,6 +18,11 @@ namespace Full_GRASP_And_SOLID
         public void AddStep(Step step)
         {
             this.steps.Add(step);
+            if (step)
+            {
+                throw new SystemException()
+            }
+            
         }
 
         public void RemoveStep(Step step)
@@ -26,7 +31,7 @@ namespace Full_GRASP_And_SOLID
         }
 
         public void PrintRecipe()
-        {
+        {   
             Console.WriteLine($"Receta de {this.FinalProduct.Description}:");
             foreach (Step step in this.steps)
             {

@@ -22,9 +22,20 @@ namespace Full_GRASP_And_SOLID
 
             Recipe recipe = new Recipe();
             recipe.FinalProduct = GetProduct("Café con leche");
+            //recipe.RemoveStep(new Step (GetProduct(""), 200, GetEquipment("Hervidor"), 60));
             recipe.AddStep(new Step(GetProduct("Café"), 100, GetEquipment("Cafetera"), 120));
             recipe.AddStep(new Step(GetProduct("Leche"), 200, GetEquipment("Hervidor"), 60));
             recipe.PrintRecipe();
+            
+            try
+            {
+            recipe.AddStep(new Step(GetProduct("Café"), "hola", GetEquipment("Cafetera"), 120));  
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Formato no valido");
+            }
         }
 
         private static void PopulateCatalogs()
