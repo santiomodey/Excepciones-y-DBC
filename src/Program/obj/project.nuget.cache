@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L401rPa3HmwmMe784sB7KVsdmjMzu8W89ztzqfZA+yB2tbi1VxnKmw35MTVseUD29AgjV23wwM7YznwaOnRF6A==",
+  "dgSpecHash": "TxBPh13p3TYT7Ksq131Iv10GSk0e7TfXMpwYJjBxJq5LObEerHZ9cUhTMoz8gCwb9VY4BJDuuhRnpCMC2Q7YVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FIT\\Desktop\\Ejercicio\\Excepciones\\src\\Program\\Program.csproj",
+  "projectFilePath": "/Users/santiagogarcia/Desktop/Progr2/Excepciones-y-DBC/src/Program/Program.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

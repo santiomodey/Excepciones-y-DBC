@@ -22,6 +22,10 @@ namespace Full_GRASP_And_SOLID
 
         public void RemoveStep(Step step)
         {
+            if (this.steps.Contains(step)== false)
+            {
+                throw new Exception(message:"Error: steps no contiene este paso");
+            }
             this.steps.Remove(step);
         }
 
