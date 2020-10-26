@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NgKiHUx/ul7omN851AWLFyLkmZ3KvsF+/MQ4dXqGebjUBnaul7OL2opEN9cX4q+fWDO4U+vTLACC1JLiwmjoLQ==",
+  "dgSpecHash": "Ixo3LaMv1O3E7ZQ7pI5RzBRbj+jy/4S4gNrCZP9ZXn9yRO69ozSueeEDj41EgW4c1ymX/FsIcWZTT5zzOv7zgw==",
   "success": true,
-  "projectFilePath": "/Users/santiagogarcia/Desktop/Progr2/Excepciones-y-DBC/src/Library/Library.csproj",
+  "projectFilePath": "C:\\Users\\FIT\\Desktop\\Ejercicio\\Excepciones-y-DBC\\src\\Library\\Library.csproj",
   "expectedPackageFiles": [
-    "/Users/santiagogarcia/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/santiagogarcia/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\FIT\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\FIT\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -41,6 +41,15 @@ namespace Full_GRASP_And_SOLID
             {
                 Console.WriteLine(e.Message);
             }
+             try
+            {
+                recipe.AddStep(new Step(GetProduct("Leche"), 10, GetEquipment("Hervidor"), -10));
+                recipe.PrintRecipe();
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             
         }
 
