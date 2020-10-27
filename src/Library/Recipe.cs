@@ -17,6 +17,10 @@ namespace Full_GRASP_And_SOLID
 
         public void AddStep(Step step)
         {
+            if (step==null)
+            {
+                throw new NullReferenceException(message: "Step a añadir vacío");
+            }
             this.steps.Add(step);
         }
 

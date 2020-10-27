@@ -12,16 +12,15 @@ namespace Full_GRASP_And_SOLID
         {
             this.Description = description;
             this.UnitCost = unitCost;
+            if (unitCost<0)
+            {
+                throw new Exception(message: "El costo del producto no puede ser menor a 0");
+            }
             
         }
 
         public string Description { get; set; }
 
         public double UnitCost { get; set; }
-
-        internal bool IsNullOrEmpty()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

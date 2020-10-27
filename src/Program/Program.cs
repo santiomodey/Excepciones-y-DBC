@@ -50,6 +50,14 @@ namespace Full_GRASP_And_SOLID
             {
                 Console.WriteLine(e.Message);
             }
+            try
+            {
+                recipe.AddStep(step);
+            }
+            catch(NullReferenceException e)
+            {
+                Console.WriteLine(e.Message);
+            }
             
         }
 
