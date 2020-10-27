@@ -11,11 +11,12 @@ namespace Full_GRASP_And_SOLID
         public Equipment(string description, double hourlyCost)
         {
             this.Description = description;
-            this.HourlyCost = hourlyCost;
-            if (HourlyCost<0)
+            if (hourlyCost<0)
             {
                 throw new Exception(message: "El costo de la hora no puede ser menor a 0");
             }
+            this.HourlyCost = hourlyCost;
+            
         }
 
         public string Description { get; set; }
